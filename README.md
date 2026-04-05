@@ -21,17 +21,17 @@ A lightweight, high-performance memory scanner for Linux processes, written in C
    ```bash
    git clone https://github.com/sanek032/MemScan-Linux
    cd MemScan-Linux
-```
+``
     Compile the scanner:
     ```bash
 
     g++ -std=c++23 main.cpp -o memscan
-```
+``
     Run with sudo:
     ```bash
 
     sudo ./memscan
-```
+``
 How it works
 
     Target PID: Enter the PID of the running game or application.
