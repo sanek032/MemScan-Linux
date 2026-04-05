@@ -19,19 +19,19 @@ A lightweight, high-performance memory scanner for Linux processes, written in C
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/yourusername/MemScan-Linux.git](https://github.com/yourusername/MemScan-Linux.git)
+   git clone https://github.com/sanek032/MemScan-Linux
    cd MemScan-Linux
-
+```
     Compile the scanner:
-    Bash
+    ```bash
 
     g++ -std=c++23 main.cpp -o memscan
-
+```
     Run with sudo:
-    Bash
+    ```bash
 
     sudo ./memscan
-
+```
 How it works
 
     Target PID: Enter the PID of the running game or application.
