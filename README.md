@@ -18,17 +18,17 @@ A lightweight, high-performance memory scanner for Linux processes, written in C
 ## Installation & Usage
 
 1. **Clone the repository:**
-   ```bash
+   ```
    git clone https://github.com/sanek032/MemScan-Linux
    cd MemScan-Linux
-``
+
     Compile the scanner:
-    ```bash
+    ```
 
     g++ -std=c++23 main.cpp -o memscan
-``
+
     Run with sudo:
-    ```bash
+    ```
 
     sudo ./memscan
 ``
